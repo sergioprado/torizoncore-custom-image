@@ -1,0 +1,18 @@
+input:
+  easy-installer:
+    toradex-feed:
+      version: "5.7.0"
+      release: quarterly
+      machine: verdin-imx8mp
+      distro: torizon
+      variant: torizon-core-docker
+      build-number: "17"
+
+output:
+  ostree:
+    branch: custom-image-branch
+    commit-subject: "custom image 1.0"
+    commit-body: "My customized image V1.0"
+  easy-installer:
+    local: images/my-custom-image
+    name: "My customized image V1.0"
