@@ -1,12 +1,12 @@
 input:
   easy-installer:
     toradex-feed:
-      version: "5.7.0"
+      version: "6.2.0"
       release: quarterly
       machine: verdin-imx8mp
       distro: torizon
       variant: torizon-core-docker
-      build-number: "17"
+      build-number: "2"
 
 output:
   ostree:
