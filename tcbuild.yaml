@@ -1,12 +1,6 @@
 input:
   easy-installer:
-    toradex-feed:
-      version: "6.2.0"
-      release: quarterly
-      machine: verdin-imx8mp
-      distro: torizon
-      variant: torizon-core-docker
-      build-number: "2"
+    local: images/torizon-core-docker-verdin-imx8mp-Tezi_6.3.0+build.4.tar
 
 output:
   ostree:
