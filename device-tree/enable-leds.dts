@@ -45,6 +45,10 @@
 	status = "disabled";
 };
 
+&mipi_dsi {
+	status = "disabled";
+};
+
 &iomuxc {
 	pinctrl_leds_yavia: ledsyaviagrp {
 		fsl,pins = <
