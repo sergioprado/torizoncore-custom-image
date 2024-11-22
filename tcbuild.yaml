@@ -1,6 +1,8 @@
 input:
   easy-installer:
-    local: images/torizon-core-docker-verdin-imx8mp-Tezi_6.3.0+build.4.tar
+    local: images/<torizon-core-image>
+
+customization:
 
 output:
   ostree:

@@ -1,0 +1,8 @@
+/dts-v1/;
+/plugin/;
+
+&{/} {
+	custom-node {
+		custom-prop = "Torizon training";
+	};
+};
